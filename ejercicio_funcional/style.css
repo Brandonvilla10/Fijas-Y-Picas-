@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.cuadradosGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fila {
+    display: flex;
+    gap: 10px;
+}
+
+.cuadrados {
+    width: 100px;
+    height: 100px;
+    background-color: #d3d6da;
+    border: 1px solid #9e9e9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.cuadrados.absent {
+    background-color: #787c7e;
+    color: white;
+}
+
+#comprobacion {
+    display: block; /
+}
+
+.resultados {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Ajusta el espacio entre los elementos */
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridSeparador {
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+}
+
+.fijas, .picas {
+    font-size: 2rem; /* Usa unidades consistentes como rem */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.probar {
+    background-color: blue;
+    border: none;
+    border-radius: 11px;
+    color: white;
+    height: 35px;
+    width: 142px;
+    position: relative; 
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.probar:hover {
+    background-color: darkblue;
+    transform: scale(1.05); 
+}
+
+body{
+    background: radial-gradient(circle, #643108, #6f4b07, #4d3a0c, #3a2705, #3c290a);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

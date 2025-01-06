@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Picas y Fijas</title>
+</head>
+<body>
+    <div class="cuadradosGrid">
+
+    
+        <div class="fila">
+            <input type="text" class="cuadrados" maxlength="1" id="boton1"></input>
+            <input type="text" class="cuadrados" maxlength="1" id="boton2" ></input>
+            <input type="text" class="cuadrados" maxlength="1" id="boton3"></input>
+            <input type="text" class="cuadrados" maxlength="1" id="boton4"></input>
+            <div id="mensaje" class="mensaje"></div>
+        </div>
+    </div>
+    <form action="" id="comprobacion">
+
+        <div class="resultados">
+
+            <div class="gridSeparador">
+                <label  class="fijas">Fijas</label>
+                <p for="contadorFijas" id="contadorFijas">0</p>
+            </div>
+            
+            <div class="gridSeparador">
+                <label class="picas">Picas</label>
+                <p for="contadorPicas" id="contadorPicas">0</p>
+            </div>
+            
+            
+            <input type="submit" class="probar" id="probar">
+
+        </div>
+        
+    </form>
+
+    <script src="js.js"></script>
+</body>
+</html>
